@@ -36,7 +36,7 @@ import jdk.test.lib.Asserts;
  * @requires (os.family == "linux" | os.family == "mac")
  * @enablePreview
  * @compile TestJNIIsSameObject.java
- * @run main/othervm/native TestJNIIsSameObject
+ * @run main/othervm/native -XX:ValueTypeFlatteningThreshold=99999 TestJNIIsSameObject
  */
 
 public class TestJNIIsSameObject {
