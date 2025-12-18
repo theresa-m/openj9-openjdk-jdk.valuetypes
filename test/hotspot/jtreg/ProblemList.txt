@@ -142,9 +142,7 @@ containers/docker/TestJFREvents.java 8327723 linux-x64
 containers/docker/TestJcmdWithSideCar.java 8341518 linux-x64
 
 
-# Valhalla
-runtime/valhalla/inlinetypes/verifier/StrictInstanceFieldsTest.java CODETOOLS-7904031 generic-all
-runtime/valhalla/inlinetypes/verifier/StrictStaticFieldsTest.java CODETOOLS-7904031 generic-all
+
 
 runtime/cds/TestDefaultArchiveLoading.java#coops_nocoh            8366774           generic-all
 runtime/cds/TestDefaultArchiveLoading.java#nocoops_nocoh          8366774           generic-all
