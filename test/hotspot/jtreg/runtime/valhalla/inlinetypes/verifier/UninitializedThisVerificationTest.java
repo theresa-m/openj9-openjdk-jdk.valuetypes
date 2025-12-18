@@ -29,7 +29,7 @@
  *          UninitializedIfNull.jasm UninitializedAcmp.jasm
  *          UninitThisAcmpOld.jasm UninitThisIfNullOld.jasm
  *          UninitializedAcmpOld.jasm UninitializedIfNullOld.jasm
- * @run main/othervm -Xlog:verification UninitializedThisVerificationTest
+ * @run main/othervm UninitializedThisVerificationTest
  */
 
 public class UninitializedThisVerificationTest {

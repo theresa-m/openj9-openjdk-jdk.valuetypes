@@ -77,8 +77,8 @@ identity class TryCatchChildBad extends Parent version 70:65535
          catch             T2 #0;
          stack_frame_type  stack1;
            stack_map       class java/lang/Throwable;
-         astore_2;
-         aload_2;
+         astore_1;
+         aload_1;
          athrow;
   L63:   stack_frame_type  early_larval;
            unset_fields;

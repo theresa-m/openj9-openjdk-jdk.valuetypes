@@ -34,7 +34,7 @@
  *          StrictFieldsNotSubset.jcod
  *          InvalidIndexInEarlyLarval.jcod
  * @compile -XDnoLocalProxyVars StrictInstanceFieldsTest.java
- * @run main/othervm -Xlog:verification StrictInstanceFieldsTest
+ * @run main/othervm StrictInstanceFieldsTest
  */
 
 import java.lang.reflect.Field;
