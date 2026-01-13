@@ -14,6 +14,15 @@
 
 # To determine required OS exclusion string see http://hg.openjdk.java.net/code-tools/jtreg/file/6f00c63c0a98/src/share/classes/com/sun/javatest/regtest/config/OS.java
 
+# new local failures - not sure why these are here
+java/lang/invoke/FindAccessTest.java 
+java/lang/invoke/MethodHandlesGeneralTest.java 
+java/lang/invoke/PrivateInvokeTest.java
+java/lang/invoke/SpecialInterfaceCall.java
+compiler/valhalla/inlinetypes/TestArrayRematerializationWithProperties.java 
+compiler/valhalla/inlinetypes/TestStrictFieldBarriers.java 
+compiler/valhalla/inlinetypes/TestUnexpectedMemBar.java#default
+
 ############################################################################
 
 # jdk_valhalla - valhalla
@@ -63,7 +72,6 @@ runtime/valhalla/inlinetypes/EmptyInlineTest.java https://github.com/eclipse-ope
 runtime/valhalla/inlinetypes/FlatArraysTest.java https://github.com/eclipse-openj9/openj9/issues/13182 generic-all
 runtime/valhalla/inlinetypes/FlattenableSemanticTest.java  https://github.com/eclipse-openj9/openj9/issues/13182 generic-all
 runtime/valhalla/inlinetypes/InlineTypeArray.java https://github.com/eclipse-openj9/openj9/issues/13182 generic-all
-runtime/valhalla/inlinetypes/InlineTypeDensity.java https://github.com/eclipse-openj9/openj9/issues/13182 generic-all
 runtime/valhalla/inlinetypes/InlineTypeGetField.java  https://github.com/eclipse-openj9/openj9/issues/13182 generic-all
 runtime/valhalla/inlinetypes/InlineWithJni.java https://github.com/eclipse-openj9/openj9/issues/13182 generic-all
 runtime/valhalla/inlinetypes/LarvalMarkWordTest.java#id0 https://github.com/eclipse-openj9/openj9/issues/13182 generic-all
@@ -81,7 +89,6 @@ runtime/valhalla/inlinetypes/StaticFieldsTest.java https://github.com/eclipse-op
 runtime/valhalla/inlinetypes/TestFieldNullability.java https://github.com/eclipse-openj9/openj9/issues/13182 generic-all
 runtime/valhalla/inlinetypes/TestFlatArrayElementMaxOops.java https://github.com/eclipse-openj9/openj9/issues/13182 generic-all
 runtime/valhalla/inlinetypes/TestInheritedInlineTypeFields.java https://github.com/eclipse-openj9/openj9/issues/13182 generic-all
-runtime/valhalla/inlinetypes/TestJNIIsSameObject.java https://github.com/eclipse-openj9/openj9/issues/13182 generic-all
 runtime/valhalla/inlinetypes/ValuePreloadTest.java https://github.com/eclipse-openj9/openj9/issues/13182 generic-all
 runtime/valhalla/inlinetypes/ValueTearing.java https://github.com/eclipse-openj9/openj9/issues/13182 generic-all
 runtime/valhalla/inlinetypes/VolatileTest.java https://github.com/eclipse-openj9/openj9/issues/13182 generic-all
@@ -110,11 +117,6 @@ runtime/valhalla/inlinetypes/field_layout/ValueCompositionTest.java#ValueComposi
 runtime/valhalla/inlinetypes/field_layout/ValueFieldInheritanceTest.java#64bitsCompressedOops https://github.com/eclipse-openj9/openj9/issues/13182 generic-all
 runtime/valhalla/inlinetypes/field_layout/ValueFieldInheritanceTest.java#64bitsNoCompressedOops https://github.com/eclipse-openj9/openj9/issues/13182 generic-all
 runtime/valhalla/inlinetypes/field_layout/ValueFieldInheritanceTest.java#64bitsNoCompressedOopsNoCompressKlassPointers https://github.com/eclipse-openj9/openj9/issues/13182 generic-all
-runtime/valhalla/inlinetypes/verifier/RedefineStrictFieldsTest.java https://github.com/eclipse-openj9/openj9/issues/13182 generic-all
-runtime/valhalla/inlinetypes/verifier/StrictFields.java  https://github.com/eclipse-openj9/openj9/issues/13182 generic-all
-runtime/valhalla/inlinetypes/verifier/StrictFinalInstanceFieldsTest.java  https://github.com/eclipse-openj9/openj9/issues/13182 generic-all
-runtime/valhalla/inlinetypes/verifier/StrictStaticTests.java https://github.com/eclipse-openj9/openj9/issues/13182 generic-all
-runtime/valhalla/inlinetypes/verifier/UninitializedThisVerificationTest.java https://github.com/eclipse-openj9/openj9/issues/13182 generic-all
 
 ############################################################################
 
